@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { css } from "@emotion/react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-import { TPopulations } from "../../../types/populationsType";
+import { TPopulations } from "../../types/populationsType";
 
 type TProps = {
   populations: TPopulations[];

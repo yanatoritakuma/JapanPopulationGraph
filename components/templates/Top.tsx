@@ -3,8 +3,8 @@ import React, { useState, useEffect, useCallback } from "react";
 import { CheckBox } from "../Atoms/CheckBox";
 import { Graph } from "../Organisms/Graph";
 import { css } from "@emotion/react";
-import { TPrefectures } from "../../../types/checkType";
-import { TPopulations } from "../../../types/populationsType";
+import { TPrefectures } from "../../types/checkType";
+import { TPopulations } from "../../types/populationsType";
 
 export const Top = () => {
   const [prefectures, setPrefectures] = useState<TPrefectures[]>([
